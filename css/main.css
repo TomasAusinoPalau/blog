@@ -28,7 +28,6 @@ header {
   height: 50px;
   display: grid;
   background-color: #47cfac;
-w
 }
 .header-icons-container .icons {
   width: 350px;
@@ -39,4 +38,33 @@ w
   justify-content: space-between;
   justify-self: end;
   margin-right: 50px;
+}
+
+.icons a {
+  color: white;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+nav .profile-link {
+  display: grid;
+  align-items: center;
+  margin-right: 50px;
+  justify-content: flex-end;
+}
+nav .profile-link a {
+  border-bottom: 1px solid black;
+  color: black;
+
+}
+nav .nav-logo-container img {
+  width: 220px;
+  margin-top: 10px;
 }
