@@ -166,9 +166,14 @@ nav .nav-logo-container img {
 
 .blogpost-container {}
 
+.ultimos-blogpost {
+  text-align: center;
+}
+
+
 .articulos {
   display: grid;
-  height: 100vh;
+  height: 50vh;
   grid-template: 1fr 1fr / 60px 1fr 1fr 1fr 60px;
   column-gap: 20px;
   row-gap: 5px;
